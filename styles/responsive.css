@@ -1,0 +1,229 @@
+@media(max-width:982px) {}
+
+@media(max-width:982px) {
+    .header-botom{
+        margin-top: 1rem;
+    }
+    .header-title{
+        font-size: 36px;
+        line-height: 43px;
+        font-weight: 600;
+    
+    }
+    .delivery-box{
+        top: 3%;
+        left: 65%;
+        border-radius: 50px 50px 50px 0;
+        background-color: #dfdfdf;
+        padding:0.3rem 0.45rem;
+    }
+    .alart-img{
+        width:18px;
+    }
+    .header-delivery__span {
+        font-size: 15px;
+        font-weight: 400;}
+        .header-30min__span{
+            font-size: 12px;
+        }
+        .pruducts-price__container:last-child{
+            font-size: 18px;
+        }
+        .pruducts-price__container{
+            margin-top: 2rem;
+        }
+        .Number-products{
+            width: 36%;
+            padding: 9px 16px;
+            
+        }
+        .order-now__btn{
+            font-size: 16px;
+            padding: 12px 16px;
+            white-space: nowrap;
+        }
+        .btn__img{
+            width: 20px;
+        }
+        .app{
+            flex-direction: column-reverse;
+            align-items: baseline;
+            border-radius: 0 400px 400px 0;
+        }
+        .app__Left {
+            margin-left: 1.5rem;
+        }
+        .app__img {
+            transform: scale(0.9);
+            position: relative;
+            top: 42px;
+            
+        }
+        
+}
+
+
+@media(max-width:860px) {
+    .list{
+        display:none;
+    }
+    .left-nav{
+        display: none;
+    }
+    .menu-ico{
+        display:block;
+    }
+    .nav{
+
+    }
+    .sale__items{
+        padding: 0 4rem;
+    }
+    .app__right-text1{
+        font-size: 16px;
+    }
+    .app__right-text2{
+        max-width: 416px;
+    }
+    .downloads-app{
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+    .download__img{
+        width: 150px;
+    }
+    /*____start map____*/
+    .map__title{
+        font-size: 36px;
+    }
+    .map__des{
+        font-size: 14px;
+    }
+    .search-btn__map-form{
+        font-size: 14px;
+    }
+    /*end map*/
+    /*footer*/
+    .FOOTER{
+        grid-template-columns:repeat(2,1fr)
+
+    }
+    .left__footer{
+        grid-row: 2;
+        margin-top: 1rem;
+        grid-column: 2 span;
+        justify-self: center;
+    }
+    
+}
+@media(max-width:678px) {
+    .header-botom{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .header-botom__left{
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+    .content{
+        max-width: 100%;
+    }
+    .Description-shadow{
+        margin: 8px auto;
+    }
+    .order_food_desktop{
+        display: none;
+    }
+    .order_food_mobile{
+        display: block;
+        display: flex;
+        align-items: center;
+        flex-direction:column;
+        white-space:nowrap;
+        margin-top: 0.8rem;
+    }
+    .img{
+        margin-top: 1rem;
+    }
+    .products{
+        grid-template-columns: 320px;
+        justify-content: center;
+
+    }
+    .sale__items{
+        padding: 0 1.8rem;
+    }
+
+    .app{
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+        padding-top: 4rem;
+        border-radius: 400px 400px 0 0;
+    }
+    .app__right-text2{
+        max-width: initial;  
+        font-size: 34px;
+    }
+    .app-des{
+        margin-top: 1.5rem;
+        max-width: 100%;
+        line-height: 25px;
+    }
+    .app__Left{
+        margin: 0;
+    }
+    .app__img{
+        width: 320px;
+        top: 30px;
+    }
+    /*____start map____*/
+    .map{
+        margin: 2rem 0.5rem;
+    }
+    .map__title{
+        font-size: 26px;
+        line-height: 45px;
+    }
+    .map__des{
+        font-size: 12px;
+    }
+    .map-form{
+        width: 85%;
+        height: 44px;
+    }
+    .search-input__map-form{
+        max-width: 59%;
+        font-size: 12px;
+    }
+    .search-btn__map-form{
+        white-space: nowrap;
+        font-size: 12px;
+    }
+    ::placeholder{
+        font-size: 12px;
+    }
+    /**/
+    .list-title__footer{
+        margin-bottom: 1rem;
+        font-size: 16px;
+    }
+    .list-item__footer{
+        font-size: 14px;
+    }
+    .footer__logo-img{
+        width: 40px;
+    }
+    .footer__title{
+        font-size: 28px;
+    }
+    .socials{
+        margin: 0;
+    }
+    .social-img{
+        width: 24px;
+        -webkit-filter: grayscale(0);
+    }
+
+    
+}
